@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, black, lightblue, black);
+  }
+
+nav {
+    position: fixed;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 auto;
+    width:100%;
+    text-align: center;
+    top:0;
+    z-index: 1;
+
+}
+
+nav li {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    background: linear-gradient(to right, white, lightblue, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav :hover{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+main {
+    top: 70px;
+    position: relative;
+}
+header{
+    width: 100%;
+    padding: auto;
+  }
+  
+ h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;  
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+
+  p{
+    font-size: 15px;   
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 40%;
+  }
+  
+  thead {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+
+  th{
+    max-width: 500px;
+    min-width: 200px;
+  }
+  
+  td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 18px;
+   
+  }
+  
+  .code {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    font: 20px;
+  }
+  
+
+  

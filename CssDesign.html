@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Table Reference</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <a href='./TableReference.html'><li>Tables</li></a>
+            <a href='./InputElement.html'><li>Inputs</li></a>
+            <a href='./CssDesign.html'><li>Css Design</li></a>
+            <a href='https://developer.mozilla.org/en-US/'><li>MDN</li></a>
+        </ul>
+    </nav>
+    <main>   
+        <h1>Css Design</h1>
+     
+        <table >
+            <thead class="table_head">
+                <th>Value</th>
+                <th>Name </th>
+                <th>Description </th>
+            </thead>
+
+            <tbody class="table_body"></tbody>
+            <tr>
+                <td>static</td>
+                <td>static position</td>
+                <td>The element is positioned according to the normal flow of the document.
+                    The top (en-US), right (en-US), bottom (en-US), left (en-US), and z-index (en-US) properties have no effect. This is the default value. </td>
+            </tr>
+            <tr>
+                <td>relative</td>
+                <td>relative position</td>
+                <td>The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.</td>
+            </tr>
+            <tr>
+                <td>absolute</td>
+                <td>absolute position</td>
+                <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor,
+                        if any; <br> it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.</td>
+            </tr>
+            <tr>
+                <td>fixed</td>
+                <td>fixed position</td>
+                <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport,<br>
+                    except when one of its ancestors has a transform, perspective, or filter property set to something other than none (see the CSS Transforms Spec), in which case that ancestor behaves as the containing block.</td>
+            </tr>
+            <tr>
+                <td>sticky</td>
+                <td>sticky position</td>
+                <td>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor),<br> including table-related elements,
+                    based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.</td>
+            </tr>
+
+        </table>
+    </main>
+    </body>
+</html>
